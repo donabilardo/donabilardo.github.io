@@ -16,9 +16,10 @@
         width: 140px;
     }
 
-    .latest-img{
+    .latest-img {
         width: 190px;
     }
+
     .insta-img {
         width: 190px;
     }
@@ -68,12 +69,14 @@
     .banner-content-header {
         font-size: 14px;
     }
-    .banner-bottom-text{
+
+    .banner-bottom-text {
         font-size: 12px;
     }
- .latest-img{
-    width: 190px;
- }
+
+    .latest-img {
+        width: 190px;
+    }
 
 }
 
@@ -118,4 +121,29 @@
         width: 100%;
     }
 
+    .subscribe-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe-btn {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .subscribe-header {
+        font-size: 24px;
+    }
+
+    .subscribe-mail::-webkit-input-placeholder {
+        text-align: center;
+    }
+
+    .subscribe-mail {
+        width: 180px;
+    }
+    .subscribe-btn{
+        width: 180px;
+    }
 }
