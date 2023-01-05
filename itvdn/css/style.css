@@ -110,7 +110,7 @@ body {
 }
 
 .insta-img {
-    width: 230px;
+    width: 250px;
 }
 
 .banner-latest {
@@ -175,4 +175,47 @@ body {
     border: none;
     cursor: pointer;
     margin-left: 20px;
+}
+
+/**BLOG*/
+
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 12fr);
+}
+
+.blog_item {
+    padding: 32px;
+}
+
+.blog_img {
+    width: 100%;
+}
+
+.blog_img_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.blog_img_container_header {
+    position: absolute;
+    bottom: -40px;
+    background-color: #4c665bee;
+    padding: 15px;
+}
+.blog_line{
+    width: 60%;
+}
+.blog_header{
+    color: black;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.blog_desc_container{
+    font-size: 16px;
+    margin-top: 65px;
+    letter-spacing: 1px;
+    text-align: left;
 }
