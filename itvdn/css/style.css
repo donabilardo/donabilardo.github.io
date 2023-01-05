@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    max-width: 1120px;
+    min-width: 320px;
+}
+
+.menu-bar {
+    display: none;
+}
+
+.header-container {
+    padding: 70px 32px;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.main-logo {
+    width: 163px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-link {
+    margin: 0px 7px;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+.header-link:hover {
+    color: #4c665b;
+}
+
+.header-social-media {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-social-media:hover {
+    color: #4c665b;
+}
+
+.header-social-icon {
+    margin: 8px;
+}
+
+.header-social-icon:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+/*Banner section*/
+
+.banner {
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    align-items: end;
+    padding: 32px;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.banner-content {
+    padding-left: 30px;
+    display: grid;
+    grid-template-areas: "header ."
+        "latest insta";
+}
+
+.banner-img-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+.banner-content-header {
+    font-size: 30px;
+    width: 280px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    grid-area: header;
+}
+
+.latest-img {
+    width: 250px;
+}
+
+.insta-img {
+    width: 230px;
+}
+
+.banner-latest {
+    grid-area: latest;
+}
+
+.banner-insta {
+    grid-area: insta;
+}
+
+.banner-img-container {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.banner-bottom-text {
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
