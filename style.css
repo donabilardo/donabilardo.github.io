@@ -14,18 +14,39 @@ h5,
 h6 {
     font-weight: 700;
 }
+
 .red {
     color: red;
     font-style: italic;
 }
+
 .container {
     max-width: 1200px;
     min-width: 290px;
     margin: 0 auto;
+    padding: 0px 32px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
 }
-.sec_items_links{
+
+.header__box {
+    background-color: aquamarine;
+}
+
+.main__box {}
+
+.footer__box {
+    background-color: cadetblue;
+}
+.sec{
+    margin-top: 30px;
+}
+.sec_items_links {
     text-decoration: none;
 }
+
 .sec_items {}
 
 .sec__items__header {}
