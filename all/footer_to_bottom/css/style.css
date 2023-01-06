@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,700&display=swap');
+
+body {
+    font-family: 'Roboto Flex', sans-serif;
+
+}
+
+.container {
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0px 32px;
+    /*Прижимаем футер с помощью GRID*/
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    /*Прижимаем футер с помощью GRID*/
+}
+
+.header__box {
+    background-color: aquamarine;
+    height: 100px;
+}
+
+.nav__box {
+    background-color: blueviolet;
+    height: 100px;
+}
+
+.main__box {
+    background-color: blanchedalmond;
+}
+
+.section__box {
+    background-color: cadetblue;
+    margin-top: 25px;
+}
+
+.footer__box{
+    background-color: chocolate;
+    height: 70px;
+}
