@@ -279,12 +279,32 @@ body {
 }
 
 
-.intro{
+.intro {
     padding: 32px;
     display: grid;
     grid-template-columns: 3fr 7fr;
-    grid-column-gap:30px;
+    grid-column-gap: 30px;
 }
-.introheader{
+
+.introheader {
     text-align: center;
+}
+
+.delivery {
+    background-color: #4c665b;
+    padding: 32px;
+}
+
+
+.full_text {
+    display: none;
+}
+
+#toggle {
+    align-self: flex-start;
+}
+#toggle:checked+.toggle__label+.full_text {
+    display: block;
+    color: #ebefee;
+    padding: 30px;
 }
