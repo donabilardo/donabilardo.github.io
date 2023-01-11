@@ -183,6 +183,7 @@ body {
 
 .category__item:hover {
   box-shadow: 3px 3px 5px 2px #666662;
+  transition-duration: 0.5s;
 }
 
 .titles {
