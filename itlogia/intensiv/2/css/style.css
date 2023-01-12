@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto.ttf");
+}
+
+@font-face {
+    font-family: Roboto_bold;
+    src: url("../fonts/Robotobold.ttf");
+    font-weight: 700;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    /*outline: none;*/
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+.container {
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 78px);
+    grid-column-gap: 24px;
+}
+
+.header {
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
