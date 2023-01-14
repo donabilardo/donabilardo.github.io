@@ -1,0 +1,292 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto.ttf");
+}
+
+@font-face {
+    font-family: Roboto_bold;
+    src: url("../fonts/Robotobold.ttf");
+    font-weight: 700;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url("../images/background.png");
+    background-position: center;
+
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.logo img {
+    vertical-align: bottom;
+}
+
+.top_menu_block {
+    border-bottom: 4px solid #E5E5E5;
+    display: flex;
+    height: 90px;
+    align-items: center;
+}
+
+.top__menu {
+    margin-left: 245px;
+}
+
+.top__menu ul {
+    display: flex;
+    margin-left: 115px;
+}
+
+.top__menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.top__menu ul li {
+    margin-left: 115px;
+}
+
+.top__menu ul li:first-child {
+    margin-left: 0;
+}
+
+.nav__item {
+    font-size: 15px;
+    font-weight: 400;
+    color: #030305;
+    text-decoration: none;
+}
+
+
+
+
+.hero {
+    min-height: 100vh;
+}
+
+.hero__heading {
+    font-family: Roboto_bold, sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
+    width: 850px;
+    margin-top: 115px;
+    color: #030305;
+}
+
+.hero__text {
+    color: #030305;
+    width: 500px;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: 380px;
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+
+.button {
+    color: #fff;
+    background-color: #030305;
+    padding: 20px 53px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2%;
+    transition: background-color .5s;
+    -webkit-transition: background-color .5s;
+    -moz-transition: background-color .5s;
+    -ms-transition: background-color .5s;
+    -o-transition: background-color .5s;
+}
+
+.button:hover {
+    background: #575757;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+.auto_block {
+    display: grid;
+    grid-template-columns: repeat(3, 385px);
+    grid-column-gap: 24px;
+    grid-row-gap: 40px;
+}
+
+.container h2 {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    padding-bottom: 40px;
+}
+
+
+.auto__item {
+    height: 475px;
+    text-align: center;
+}
+
+.auto__item__img img {
+    vertical-align: bottom;
+    transition: all .3s;
+    margin-bottom: 15px;
+}
+.auto__item__img img:hover{
+    transform: scale(1.1);
+}
+
+.auto__item__heading h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    padding: 15px 0px 17px 0px;
+}
+
+.auto__detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auto__item__info {
+    width: 110px;
+    height: 92px;
+    padding-left: 15px;
+}
+
+.auto__item__info:first-child {
+    padding-left: 0px;
+}
+
+.auto__item__detail {
+    font-size: 13px;
+    font-weight: bold;
+    padding-top: 11px;
+}
+
+.auto__item__detail__data {
+    font-size: 13px;
+    padding-top: 4px;
+}
+
+.auto__item__button {
+    margin-top: 13px;
+}
+
+.auto__item__button button {
+    padding: 15px;
+    height: 54px;
+    width: 100%;
+    background-color: #030305;
+    transition: background-color .5s;
+    -webkit-transition: background-color .5s;
+    -moz-transition: background-color .5s;
+    -ms-transition: background-color .5s;
+    -o-transition: background-color .5s;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.auto__item__button button:hover {
+    background-color: #575757;
+    cursor: pointer;
+}
+
+
+/*КОНТАКТЫф*/
+
+.contact__text {
+    width: 645px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #5D5D5F;
+    padding-top: 20px;
+}
+
+
+.contact {
+    margin-top: 150px;
+}
+
+.contact__block {
+    display: flex;
+}
+.contact__text{
+    margin-bottom: 60px;
+}
+.contact__form input {
+    padding: 22px 18px;
+    width: 344px;
+    height: 65px;
+    border: 1px solid #5D5D5F;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.btn{
+    background: #030305;
+    color: #fff;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #575757;
+}
+.contact__img {
+    padding-left: 60px;
+}
+
+.footer {
+    border-top: 4px solid #E5E5E5;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
