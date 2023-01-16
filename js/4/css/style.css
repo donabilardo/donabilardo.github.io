@@ -1,0 +1,13 @@
+.cl1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.cl2 {
+    background-color: darkgreen;
+    width: 150px;
+    height: 90px;
+}
