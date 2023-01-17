@@ -43,10 +43,21 @@ h6 {
 .sec{
     margin-top: 30px;
 }
+.sec ul {
+    margin: 25px 0px;
+}
 .sec_items_links {
     text-decoration: none;
 }
 
-.sec_items {}
+details {
+    margin: 30px;
+}
+details:hover {
+    cursor: pointer;
+}
+.sec_items {
+
+}
 
 .sec__items__header {}
